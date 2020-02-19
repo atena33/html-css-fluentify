@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.immagine-di-sfondo {
+  background-image: url(sfondo-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  padding: 30px 100px;
+  width: 100vw;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#resize {
+  width: auto;
+  height: 40px;
+  float: left;
+  padding-left: 30px;
+}
+
+#primo-nav ul li {
+  list-style-type: none;
+  color: white;
+  float:left;
+  padding-left: 30px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+
+#primo-nav ul li a {
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
+}
+
+#secondo-nav {
+  float: right;
+  padding-top: 20px;
+
+}
+
+#secondo-nav a {
+  font-size: 10px;
+  color: grey;
+  text-decoration: none;
+  padding-right: 10px;
+}
+header button {
+  border-radius: 10%;
+  color: white;
+  font-weight: bold;
+}
+#login {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px 15px;
+}
+
+.piano {
+  background-color: green;
+  padding: 5px;
+}
+
+.titolo {
+  padding-top: 150px;
+  position: relative;
+  left: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  padding-bottom: 30px;
+}
+
+#piano-maggiore {
+ font-size: 15px;
+ padding: 10px;
+}
+
+.piede-header {
+ height: 150px;
+ background-color: #F5F5F5;
+ text-align: center;
+ position: relative;
+ top:180px;
+ left: -100px;
+ min-width: 117.2%;
+ line-height: 40px;
+ font-size: 30px;
+ padding-top: 60px;
+}
